@@ -1,0 +1,58 @@
+/* styles.css */
+body 
+{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('lappi.jpg');
+    background-repeat: no-repeat;
+    background-size:1500px 950px;
+    background-position:center;
+  }
+  
+  header 
+  {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .about, .projects, .certifications, .contact 
+  {
+    padding: 4px;
+  }
+  /* Example CSS for the Certifications Section */
+.certifications {
+    padding: 8px;
+  }
+  
+  .certifications ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .certifications li {
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .certifications h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .certifications p {
+    margin: 5px 0;
+    font-size: 15px;
+  }
+  
+  footer {
+    background-color: navy;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
